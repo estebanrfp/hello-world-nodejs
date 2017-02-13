@@ -71,3 +71,7 @@ $ docker-compose -f docker-compose.prod.yml up -d
 
 After that, open hello.teracy.dev on your browser to see the app on the prod mode.
 
+
+## License
+
+MIT, see the LICENSE file.
