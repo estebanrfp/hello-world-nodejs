@@ -42,7 +42,7 @@ $ git clone https://github.com/teracyhq/hello-world-nodejs.git
 
 ## Running on dev mode
 
-`ssh` into the teracy-dev VM to execute the following commands:
+Open a new terminal window, `ssh` into the teracy-dev VM to execute the following commands:
 
 ```
 $ vagrant ssh
@@ -55,7 +55,7 @@ After that, open hello-d.teracy.dev on your browser to see the app on the dev mo
 
 ## Running on prod mode
 
-`ssh` into the teracy-dev VM to execute the following commands:
+Open a new terminal window,, `ssh` into the teracy-dev VM to execute the following commands:
 
 ```
 $ vagrant ssh
