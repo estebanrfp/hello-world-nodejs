@@ -6,7 +6,8 @@ This is a basic example for a hello world nodejs app with Docker workflow runnin
 ## Getting Started
 
 - Set up the latest stable version of teracy-dev v0.5.0 from: https://github.com/teracyhq/dev with the
-  following custom configuration (`vagrant_config_override.json`):
+  following custom configuration by creating `vagrant_config_override.json` on `~/teracy-dev` directory
+  witht the following content:
 
 ```json
 {
@@ -14,12 +15,6 @@ This is a basic example for a hello world nodejs app with Docker workflow runnin
     "_id": "0",
     "json": {
       "teracy-dev": {
-        "env_vars": [{
-          "_id": "1",
-          "key": "DOCKER_HIDE_LEGACY_COMMANDS",
-          "value": "true",
-          "action": "add"
-        }],
         "proxy": {
           "container": {
             "enabled": true
