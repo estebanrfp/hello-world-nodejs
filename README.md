@@ -5,9 +5,10 @@ This is a basic example for a hello world nodejs app with Docker workflow runnin
 
 ## Getting Started
 
-- Set up the latest stable version of teracy-dev v0.5.0 from: https://github.com/teracyhq/dev with the
-  following custom configuration by creating `vagrant_config_override.json` on `~/teracy-dev` directory
-  witht the following content:
+- Set up the latest stable version of teracy-dev v0.5.0 from: https://github.com/teracyhq/dev
+
+- Create the following custom configuration by creating `vagrant_config_override.json` file into the
+  `~/teracy-dev` directory with the following content:
 
 ```json
 {
@@ -33,10 +34,12 @@ This is a basic example for a hello world nodejs app with Docker workflow runnin
 
 ```
 
-After `$ vagrant up` successfully, clone this repo into the `~/teracy-dev/workspace` directory:
+After `$ vagrant reload` successfully, `$ vagrant hostmanager` and clone this repo into
+the `~/teracy-dev/workspace` directory:
 
 ```
 $ cd ~/teracy-dev/workspace
+$ vagrant hostmanager # to update the hosts file for alias domains
 $ git clone https://github.com/teracyhq/hello-world-nodejs.git
 ```
 
