@@ -1,3 +1,4 @@
+#!/bin/sh
 FROM node:6.9
 
 ENV APP=/opt/app NODE_ENV=production
